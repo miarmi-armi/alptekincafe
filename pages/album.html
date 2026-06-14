@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albüm | Alptekinler</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .album-full-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+    .album-section-title {
+      font-family: var(--ff-serif);
+      font-size: 1.3rem;
+      color: var(--brown);
+      font-weight: 600;
+      margin: 2.5rem 0 1rem;
+      padding-left: 1rem;
+      border-left: 4px solid var(--gold);
+    }
+    .album-item-big { aspect-ratio: 4/3; }
+    @media(max-width:900px){ .album-full-grid{ grid-template-columns:repeat(3,1fr); } }
+    @media(max-width:600px){ .album-full-grid{ grid-template-columns:repeat(2,1fr); } }
+  </style>
+  <meta name="description" content="Cafe, restoran, otel ve diğer işletmelerimizden fotoğraf galerisi.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fotoğraf Albümü | Alptekinler">
+  <meta property="og:description" content="İşletmelerimizden anlar.">
+  <meta property="og:url" content="https://alptekinler.com/pages/album.html">
+  <meta property="og:locale" content="tr_TR">
+  <link rel="canonical" href="https://alptekinler.com/pages/album.html">
+<style>.skip-link{position:absolute;top:-100px;left:1rem;background:var(--altin);color:var(--kahve);padding:.5rem 1rem;border-radius:0 0 6px 6px;font-weight:700;font-size:.82rem;z-index:9999;transition:top .2s}.skip-link:focus{top:0}*:focus-visible{outline:2px solid var(--altin);outline-offset:2px;border-radius:3px}</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">İçeriğe geç</a>
+
+<div class="topbar"><div class="topbar-left"><span>📞 0555 000 00 00</span></div><div class="topbar-right"><span>🕐 08:00 – 24:00</span></div></div>
+<nav>
+  <a href="../index.html" class="logo"><div class="logo-emblem">A</div><span>Alptekin<span>ler</span></span></a>
+  <div class="nav-links" id="nav-links">
+    <a href="../index.html">Ana Sayfa</a>
+    <div class="nav-dropdown"><a href="#">İşletmeler ▾</a>
+      <div class="nav-dropdown-menu">
+        <a href="cafe.html"><span class="dd-icon">☕</span> Cafe</a>
+        <a href="restoran.html"><span class="dd-icon">🍽️</span> Restoran</a>
+        <a href="otel.html"><span class="dd-icon">🏨</span> Otel</a>
+        <a href="kasap.html"><span class="dd-icon">🥩</span> Kasap</a>
+        <a href="balik.html"><span class="dd-icon">🐟</span> Balık</a>
+        <a href="kiraathane.html"><span class="dd-icon">🎭</span> Kıraathane</a>
+      </div>
+    </div>
+    <a href="album.html" class="active">Albüm</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="iletisim.html">İletişim</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Menüyü aç/kapat"><span></span><span></span><span></span></button>
+</nav>
+<div class="breadcrumb"><a href="../index.html">Ana Sayfa</a> › <strong>Fotoğraf Albümü</strong></div>
+<div class="page-hero"><div class="page-hero-icon">📷</div><h1>Fotoğraf Albümü</h1><p>Alptekinler işletmelerinden en güzel anlar</p></div>
+
+<section class="section">
+  <div class="container">
+
+    <div class="album-section-title">☕ Cafe</div>
+    <div class="album-full-grid">
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#6b3a2a,#8b5e3c)"><span>☕</span><span>Sabah Kahvesi</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#5a2e1a,#7a4e30)"><span>🍰</span><span>Taze Pasta</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#4a2010,#6b3a20)"><span>🥐</span><span>Kahvaltılık</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#7b4a2e,#9b6a4e)"><span>🧋</span><span>Soğuk İçecek</span></div><div class="album-item-overlay">🔍</div></div>
+    </div>
+
+    <div class="album-section-title">🍽️ Restoran</div>
+    <div class="album-full-grid">
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#4a2c0a,#7a4520)"><span>🍖</span><span>Kuzu Tandır</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#3a1c00,#6a3c10)"><span>🥩</span><span>Adana Kebap</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#5a3c10,#8a5c30)"><span>🫕</span><span>Güveç</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#4a3010,#7a5030)"><span>🍮</span><span>Tatlılar</span></div><div class="album-item-overlay">🔍</div></div>
+    </div>
+
+    <div class="album-section-title">🏨 Otel</div>
+    <div class="album-full-grid">
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#2c3e1f,#4a6630)"><span>🛏️</span><span>Suit Oda</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#1e2e12,#3a5222)"><span>🍳</span><span>Kahvaltı</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#2e4e1a,#4e6e3a)"><span>🌿</span><span>Bahçe</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#1a2c0e,#3a4c2e)"><span>🏨</span><span>Resepsiyon</span></div><div class="album-item-overlay">🔍</div></div>
+    </div>
+
+    <div class="album-section-title">🎭 Kıraathane & Diğer</div>
+    <div class="album-full-grid">
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#2a1f0a,#4a3510)"><span>🎲</span><span>Tavla Köşesi</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#5c1a1a,#8b2c2c)"><span>🥩</span><span>Kasap</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#1a3a5c,#2a5c8b)"><span>🐟</span><span>Balık Tezgâhı</span></div><div class="album-item-overlay">🔍</div></div>
+      <div class="album-item album-item-big"><div class="album-placeholder" style="background:linear-gradient(135deg,#3a2a0a,#5a4a2a)"><span>👨‍👩‍👧‍👦</span><span>Aile Anları</span></div><div class="album-item-overlay">🔍</div></div>
+    </div>
+
+    <div style="text-align:center;margin-top:3rem;color:var(--muted);font-size:.9rem">
+      <p>📸 Gerçek fotoğraflarınızı eklemek için <a href="iletisim.html" style="color:var(--gold)">bizimle iletişime geçin</a>.</p>
+    </div>
+  </div>
+</section>
+
+<footer><div class="footer-inner">
+  <div class="footer-brand"><a href="../index.html" class="logo"><div class="logo-emblem">A</div><span>Alptekin<span>ler</span></span></a><p>Yılların deneyimi ve aile sıcaklığıyla hizmetinizdeyiz.</p></div>
+  <div class="footer-col"><h4>İşletmeler</h4><a href="cafe.html">☕ Cafe</a><a href="restoran.html">🍽️ Restoran</a><a href="otel.html">🏨 Otel</a><a href="kasap.html">🥩 Kasap</a><a href="balik.html">🐟 Balık</a><a href="kiraathane.html">🎭 Kıraathane</a></div>
+  <div class="footer-col"><h4>Kurumsal</h4><a href="hakkimizda.html">Hakkımızda</a><a href="album.html">Albüm</a><a href="iletisim.html">İletişim</a></div>
+  <div class="footer-col"><h4>İletişim</h4><p>📞 0555 000 00 00</p><p>🕐 08:00 – 24:00</p></div>
+</div><div class="footer-bottom">© 2024 Alptekinler &nbsp;|&nbsp; <a href="../pages/kvkk.html" style="color:rgba(255,255,255,.45)">KVKK</a> &nbsp;|&nbsp; <a href="../pages/gizlilik.html" style="color:rgba(255,255,255,.45)">Gizlilik</a></div></footer>
+</main>
+<a href="https://wa.me/905550000000" target="_blank" rel="noopener noreferrer" class="whatsapp-btn">💬</a>
+<button class="scroll-top">↑</button>
+<div id="lightbox" class="lightbox"><button class="lightbox-close">✕</button><button class="lightbox-prev">‹</button><img loading="lazy" src="" alt="Fotoğraf"><button class="lightbox-next">›</button></div>
+<script src="../js/main.js"></script>
+</body>
+</html>
